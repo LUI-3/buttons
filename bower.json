@@ -13,6 +13,9 @@
     "website",
     "web"
   ],
+  "dependencies": {
+      "LUI-3_base": ">=3.0.0"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
