@@ -1,9 +1,16 @@
+[![GitHub issues](https://img.shields.io/github/issues/LUI-3/buttons.svg)](https://github.com/LUI-3/buttons/issues)
+[![GitHub forks](https://img.shields.io/github/forks/LUI-3/buttons.svg)](https://github.com/LUI-3/buttons/network)
+[![GitHub stars](https://img.shields.io/github/stars/LUI-3/buttons.svg)](https://github.com/LUI-3/buttons/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/LUI-3/buttons/master/license.md)
+
 # LUI-3 buttons component
 This component contains `.lui_button` components. Can be extended with "buttons-fontawesome" component *(repository comming soon)*
 
 # Usage
 
 ## Classnames:
+
+These classnames are ready to be used directly in your HTML code
 
 *(img comming soon)* `.lui_button` 
 
@@ -63,6 +70,8 @@ This component contains `.lui_button` components. Can be extended with "buttons-
 
 
 ## Mixins:
+
+Or you can use your own classnames and use mixins on your Less files instead
 
 `.lui.button.this()` - basic style
 
