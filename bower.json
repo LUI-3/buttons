@@ -4,8 +4,8 @@
   "authors": [
     "wufiii@gmail.com"
   ],
-  "description": "Responsive front-end website framework - Buttons Package",
-  "main": "less/button.router.less",
+  "description": "Responsive front-end website framework - Buttons component",
+  "main": "less/router.less",
   "keywords": [
     "responsive",
     "front-end",
