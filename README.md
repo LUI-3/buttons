@@ -12,61 +12,60 @@ This component contains `.lui_button` components. Can be extended with "buttons-
 
 These classnames are ready to be used directly in your HTML code
 
-*(img comming soon)* `.lui_button` 
+![button](https://content.github.lui-3.cz/buttons/button_default.png) `.lui_button` 
 
-*(img comming soon)* `.lui_button.hover` (:hover)
+![button](https://content.github.lui-3.cz/buttons/button_default_hover.png) `.lui_button.hover` (:hover)
 
-*(img comming soon)* `.lui_button.inverted` 
 
-*(img comming soon)* `.lui_button.active` (:active)
+![button](https://content.github.lui-3.cz/buttons/button_default_active.png) `.lui_button.active` (:active)
 
 **Primary**
 
-*(img comming soon)* `.lui_button.primary` 
+![button](https://content.github.lui-3.cz/buttons/button_primary.png) `.lui_button.primary` 
 
-*(img comming soon)* `.lui_button.primary.hover` (:hover)
+![button](https://content.github.lui-3.cz/buttons/button_primary_hover.png) `.lui_button.primary.hover` (:hover)
 
-*(img comming soon)* `.lui_button.primary.active` (:active)
+![button](https://content.github.lui-3.cz/buttons/button_primary_active.png) `.lui_button.primary.active` (:active)
 
 **Secondary**
 
-*(img comming soon)* `.lui_button.secondary` 
+![button](https://content.github.lui-3.cz/buttons/button_secondary.png) `.lui_button.secondary` 
 
-*(img comming soon)* `.lui_button.secondary.hover` (:hover)
+![button](https://content.github.lui-3.cz/buttons/button_secondary_hover.png) `.lui_button.secondary.hover` (:hover)
 
-*(img comming soon)* `.lui_button.secondary.active` (:active)
+![button](https://content.github.lui-3.cz/buttons/button_secondary_active.png) `.lui_button.secondary.active` (:active)
 
 **Info**
 
-*(img comming soon)* `.lui_button.info` 
+![button](https://content.github.lui-3.cz/buttons/button_info.png) `.lui_button.info` 
 
-*(img comming soon)* `.lui_button.info.hover` (:hover)
+![button](https://content.github.lui-3.cz/buttons/button_info_hover.png) `.lui_button.info.hover` (:hover)
 
-*(img comming soon)* `.lui_button.info.active` (:active)
+![button](https://content.github.lui-3.cz/buttons/button_info_active.png) `.lui_button.info.active` (:active)
 
 **Success**
 
-*(img comming soon)* `.lui_button.success` 
+![button](https://content.github.lui-3.cz/buttons/button_success.png) `.lui_button.success` 
 
-*(img comming soon)* `.lui_button.success.hover` (:hover)
+![button](https://content.github.lui-3.cz/buttons/button_success_hover.png) `.lui_button.success.hover` (:hover)
 
-*(img comming soon)* `.lui_button.success.active` (:active)
+![button](https://content.github.lui-3.cz/buttons/button_success_active.png) `.lui_button.success.active` (:active)
 
 **Warning**
 
-*(img comming soon)* `.lui_button.warning` 
+![button](https://content.github.lui-3.cz/buttons/button_warning.png) `.lui_button.warning` 
 
-*(img comming soon)* `.lui_button.warning.hover` (:hover)
+![button](https://content.github.lui-3.cz/buttons/button_warning_hover.png) `.lui_button.warning.hover` (:hover)
 
-*(img comming soon)* `.lui_button.warning.active` (:active)
+![button](https://content.github.lui-3.cz/buttons/button_warning_active.png) `.lui_button.warning.active` (:active)
 
 **Error**
 
-*(img comming soon)* `.lui_button.error` 
+![button](https://content.github.lui-3.cz/buttons/button_error.png) `.lui_button.error` 
 
-*(img comming soon)* `.lui_button.error.hover` (:hover)
+![button](https://content.github.lui-3.cz/buttons/button_error_hover.png) `.lui_button.error.hover` (:hover)
 
-*(img comming soon)* `.lui_button.error.active` (:active)
+![button](https://content.github.lui-3.cz/buttons/button_error_active.png) `.lui_button.error.active` (:active)
 
 
 ## Mixins:
