@@ -5,7 +5,7 @@
     "wufiii@gmail.com"
   ],
   "description": "Responsive front-end website framework - Buttons component",
-  "main": "less/router.less",
+  "main": "less/button.router.less",
   "keywords": [
     "responsive",
     "front-end",
