@@ -55,6 +55,11 @@
 			.lui.button.huge();
 		}
 
+		&.block,
+		&.xs-block {
+			.lui.button.block();
+		}
+
 		// RESPONSIVE
 		// each breakpoint is enabled/disabled by GRID configuration file
 		// so its easy to turn off styles for unused breakpoints (ex: xxl, xxxl)
@@ -76,6 +81,9 @@
 				&.sm-huge {
 					.lui.button.huge();
 				}
+				&.sm-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -95,6 +103,9 @@
 				}
 				&.md-huge {
 					.lui.button.huge();
+				}
+				&.md-block {
+					.lui.button.block();
 				}
 			}
 		}
@@ -116,6 +127,9 @@
 				&.lg-huge {
 					.lui.button.huge();
 				}
+				&.lg-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -135,6 +149,9 @@
 				}
 				&.xl-huge {
 					.lui.button.huge();
+				}
+				&.xl-block {
+					.lui.button.block();
 				}
 			}
 		}
@@ -156,6 +173,9 @@
 				&.xxl-huge {
 					.lui.button.huge();
 				}
+				&.xxl-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -176,6 +196,9 @@
 				&.xxxl-huge {
 					.lui.button.huge();
 				}
+				&.xxxl-block {
+					.lui.button.block();
+				}
 			}
 		}
 	}
@@ -187,26 +210,43 @@
 
 	.small(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_small_padding;
 		font-size: @lui_button_small_font-size;
 	}
 
 	.regular(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_regular_padding;
 		font-size: @lui_button_regular_font-size;
 	}
 
 	.big(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_big_padding;
 		font-size: @lui_button_big_font-size;
 	}
 
 	.huge(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_huge_padding;
 		font-size: @lui_button_huge_font-size;
+	}
+
+	.block(){
+		display: block;
+		margin: 5px 0;
+		width: 100%;
+		text-align: center;
+		padding: @lui_button_block_padding;
+		font-size: @lui_button_block_font-size;
 	}
 
 	// STATES
