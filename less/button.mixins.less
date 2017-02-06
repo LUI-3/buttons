@@ -35,6 +35,11 @@
 			.lui.button.hidden();
 		}
 
+		&.tiny,
+		&.xs-tiny {
+			.lui.button.tiny();
+		}
+
 		&.small,
 		&.xs-small {
 			.lui.button.small();
@@ -69,6 +74,9 @@
 				&.sm-hidden {
 					.lui.button.hidden();
 				}
+				&.sm-tiny {
+					.lui.button.tiny();
+				}
 				&.sm-small {
 					.lui.button.small();
 				}
@@ -91,6 +99,9 @@
 			@media (min-width:@grid_md_start){
 				&.md-hidden {
 					.lui.button.hidden();
+				}
+				&.md-tiny {
+					.lui.button.tiny();
 				}
 				&.md-small {
 					.lui.button.small();
@@ -115,6 +126,9 @@
 				&.lg-hidden {
 					.lui.button.hidden();
 				}
+				&.lg-tiny {
+					.lui.button.tiny();
+				}
 				&.lg-small {
 					.lui.button.small();
 				}
@@ -137,6 +151,9 @@
 			@media (min-width:@grid_xl_start){
 				&.xl-hidden {
 					.lui.button.hidden();
+				}
+				&.xl-tiny {
+					.lui.button.tiny();
 				}
 				&.xl-small {
 					.lui.button.small();
@@ -161,6 +178,9 @@
 				&.xxl-hidden {
 					.lui.button.hidden();
 				}
+				&.xxl-tiny {
+					.lui.button.tiny();
+				}
 				&.xxl-small {
 					.lui.button.small();
 				}
@@ -184,6 +204,9 @@
 				&.xxxl-hidden {
 					.lui.button.hidden();
 				}
+				&.xxxl-tiny {
+					.lui.button.tiny();
+				}
 				&.xxxl-small {
 					.lui.button.small();
 				}
@@ -206,6 +229,14 @@
 	// SIZES MIXINS
 	.hidden(){
 		display: none;
+	}
+
+	.tiny(){
+		display: inline-block;
+		margin: 0;
+		width: auto;
+		padding: @lui_button_tiny_padding;
+		font-size: @lui_button_tiny_font-size;
 	}
 
 	.small(){
