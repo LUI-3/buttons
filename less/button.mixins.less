@@ -224,6 +224,32 @@
 				}
 			}
 		}
+
+		& when (@grid_print_enable = true){
+			@media print {
+				&.pnt-hidden {
+					.lui.button.hidden();
+				}
+				&.pnt-tiny {
+					.lui.button.tiny();
+				}
+				&.pnt-small {
+					.lui.button.small();
+				}
+				&.pnt-regular {
+					.lui.button.regular();
+				}
+				&.pnt-big {
+					.lui.button.big();
+				}
+				&.pnt-huge {
+					.lui.button.huge();
+				}
+				&.pnt-block {
+					.lui.button.block();
+				}
+			}
+		}
 	}
 
 	// SIZES MIXINS
