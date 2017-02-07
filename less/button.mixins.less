@@ -1,4 +1,7 @@
-// LUI2
+// LUI-3 FRAMEWORK
+// github.com/LUI-3
+// originally created by Jiří Bělský (github.com/wUFr)
+// ----
 // BUTTON - MIXINS
 
 
@@ -11,7 +14,7 @@
 		text-decoration: none;
 		border-radius: @lui_button_border-radius;
 		background: @lui_button_default_bg;
-		
+
 		// BUTTON tag or empty A
 		cursor: pointer;
 		border: 0;
@@ -30,6 +33,11 @@
 		&.hidden,
 		&.xs-hidden {
 			.lui.button.hidden();
+		}
+
+		&.tiny,
+		&.xs-tiny {
+			.lui.button.tiny();
 		}
 
 		&.small,
@@ -52,6 +60,11 @@
 			.lui.button.huge();
 		}
 
+		&.block,
+		&.xs-block {
+			.lui.button.block();
+		}
+
 		// RESPONSIVE
 		// each breakpoint is enabled/disabled by GRID configuration file
 		// so its easy to turn off styles for unused breakpoints (ex: xxl, xxxl)
@@ -60,6 +73,9 @@
 			@media (min-width:@grid_sm_start){
 				&.sm-hidden {
 					.lui.button.hidden();
+				}
+				&.sm-tiny {
+					.lui.button.tiny();
 				}
 				&.sm-small {
 					.lui.button.small();
@@ -73,6 +89,9 @@
 				&.sm-huge {
 					.lui.button.huge();
 				}
+				&.sm-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -80,6 +99,9 @@
 			@media (min-width:@grid_md_start){
 				&.md-hidden {
 					.lui.button.hidden();
+				}
+				&.md-tiny {
+					.lui.button.tiny();
 				}
 				&.md-small {
 					.lui.button.small();
@@ -93,6 +115,9 @@
 				&.md-huge {
 					.lui.button.huge();
 				}
+				&.md-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -100,6 +125,9 @@
 			@media (min-width:@grid_lg_start){
 				&.lg-hidden {
 					.lui.button.hidden();
+				}
+				&.lg-tiny {
+					.lui.button.tiny();
 				}
 				&.lg-small {
 					.lui.button.small();
@@ -113,6 +141,9 @@
 				&.lg-huge {
 					.lui.button.huge();
 				}
+				&.lg-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -120,6 +151,9 @@
 			@media (min-width:@grid_xl_start){
 				&.xl-hidden {
 					.lui.button.hidden();
+				}
+				&.xl-tiny {
+					.lui.button.tiny();
 				}
 				&.xl-small {
 					.lui.button.small();
@@ -133,6 +167,9 @@
 				&.xl-huge {
 					.lui.button.huge();
 				}
+				&.xl-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -140,6 +177,9 @@
 			@media (min-width:@grid_xxl_start){
 				&.xxl-hidden {
 					.lui.button.hidden();
+				}
+				&.xxl-tiny {
+					.lui.button.tiny();
 				}
 				&.xxl-small {
 					.lui.button.small();
@@ -153,6 +193,9 @@
 				&.xxl-huge {
 					.lui.button.huge();
 				}
+				&.xxl-block {
+					.lui.button.block();
+				}
 			}
 		}
 
@@ -160,6 +203,9 @@
 			@media (min-width:@grid_xxxl_start){
 				&.xxxl-hidden {
 					.lui.button.hidden();
+				}
+				&.xxxl-tiny {
+					.lui.button.tiny();
 				}
 				&.xxxl-small {
 					.lui.button.small();
@@ -173,25 +219,8 @@
 				&.xxxl-huge {
 					.lui.button.huge();
 				}
-			}
-		}
-
-		& when (@grid_print_enable = true){
-			@media print{
-				&.pnt-hidden {
-					.lui.button.hidden();
-				}
-				&.pnt-small {
-					.lui.button.small();
-				}
-				&.pnt-regular {
-					.lui.button.regular();
-				}
-				&.pnt-big {
-					.lui.button.big();
-				}
-				&.pnt-huge {
-					.lui.button.huge();
+				&.xxxl-block {
+					.lui.button.block();
 				}
 			}
 		}
@@ -202,28 +231,53 @@
 		display: none;
 	}
 
+	.tiny(){
+		display: inline-block;
+		margin: 0;
+		width: auto;
+		padding: @lui_button_tiny_padding;
+		font-size: @lui_button_tiny_font-size;
+	}
+
 	.small(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_small_padding;
 		font-size: @lui_button_small_font-size;
 	}
 
 	.regular(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_regular_padding;
 		font-size: @lui_button_regular_font-size;
 	}
 
 	.big(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_big_padding;
 		font-size: @lui_button_big_font-size;
 	}
 
 	.huge(){
 		display: inline-block;
+		margin: 0;
+		width: auto;
 		padding: @lui_button_huge_padding;
 		font-size: @lui_button_huge_font-size;
+	}
+
+	.block(){
+		display: block;
+		margin: 5px 0;
+		width: 100%;
+		text-align: center;
+		padding: @lui_button_block_padding;
+		font-size: @lui_button_block_font-size;
 	}
 
 	// STATES
