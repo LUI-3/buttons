@@ -24,12 +24,16 @@
 
 		.lui.button.regular();
 
-		&[class*="fa_b"]:before {
-			padding-right: @lui_button_icon_padding;
+		&[class*="fa_b"] {
+			&:not(.empty):before{
+				padding-right: @lui_button_icon_padding;
+			}
 		}
 
-		&[class*="fa_a"]:after {
-			padding-left: @lui_button_icon_padding;
+		&[class*="fa_a"] {
+			&:not(.empty):after{
+				padding-left: @lui_button_icon_padding;
+			}
 		}
 
 		// SIZES
