@@ -100,3 +100,11 @@
 @lui_button_error_bg:				#f33f3f;
 @lui_button_error_hover_bg:			#da3333;
 @lui_button_error_active_bg:		#cb2d2d;
+
+
+// DEBUG MODE - CONFIG VALUES
+.lui_config_values when (@lui_debug = true){
+	--lui_buttons_config: "LUI-3_buttons/less/buttons.config.less";
+	--lui_button_class_enabled: @lui_button_class_enabled;
+	--lui_button_mixin_enabled: @lui_button_mixin_enabled;
+}
